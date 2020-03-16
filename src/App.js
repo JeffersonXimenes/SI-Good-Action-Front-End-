@@ -39,8 +39,8 @@ function App() {
     })
    
     if(response.ok){
-      console.log('Response POST OK')
-      setDoadores([...doadores, ])
+      console.log('DATA POST', data)
+      setDoadores([...doadores, data])
     }
 
   }
